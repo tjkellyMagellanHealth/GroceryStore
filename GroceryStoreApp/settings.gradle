@@ -8,3 +8,12 @@
  */
 
 rootProject.name = 'GroceryStoreApp'
+
+sourceControl {
+    gitRepository("file://u:/tk/Fruit"){
+      setRootDir("FruitLib")
+        producesModule("magellan.example:FruitLib")
+    }
+ 
+
+}
